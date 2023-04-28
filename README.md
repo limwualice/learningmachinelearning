@@ -1,5 +1,3 @@
-Sure, here's an example of a README file for a GitHub Pages site about decision trees:
-
 # Decision Trees Blog
 
 Welcome to my GitHub Pages site where I'll be blogging about decision trees! This site is a place for me to share my knowledge about decision trees and related topics.
