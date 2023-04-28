@@ -1,5 +1,5 @@
 ---
-title: Welcome to my blog
+title: Decision trees
 ---
 
-I want to learn about decision trees! 
+I used DataTalksClub for most of my notes. I hope you find this useful! 
