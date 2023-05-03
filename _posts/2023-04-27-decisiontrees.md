@@ -61,7 +61,8 @@ Decision trees are a popular machine learning algorithm used for classification 
 
 
 
-<img src="https://user-images.githubusercontent.com/125330688/236014738-251b246a-0238-4538-b0ab-2469d86ed076.png" alt="decision5a" width="600">
+
+<img src="https://user-images.githubusercontent.com/125330688/236016949-7961e637-2898-43d1-ab1e-387bbd6fca63.png" alt="decision6" width="600">
 
 
 
