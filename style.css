@@ -10,6 +10,19 @@ p {
   margin-bottom: 20px;
 }
 
+.container {
+  background-color: #D6EAF8;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.container p {
+  background-color: #FFF;
+  border-radius: 5px;
+  margin: 0;
+  padding: 10px;
+}
+
 h1, h2, h3, h4, h5, h6 {
   font-weight: 600;
   margin: 20px 0;
