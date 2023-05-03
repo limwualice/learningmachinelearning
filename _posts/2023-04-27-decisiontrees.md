@@ -7,7 +7,11 @@ layout: default
   <link rel="stylesheet" type="text/css" href="learningmachinelearning/style.css">
 </head>
 
-Decision trees are a popular machine learning algorithm used for classification and regression. In this post, I give an introduction to decision trees. I used <a href="https://www.youtube.com/@DataTalksClub">DataTalksClub</a> as my main resource, and I highly recommend their channel.
+Decision trees are a popular machine learning algorithm used for classification and regression. In this post, I give an intuitive introduction to decision trees. The setup is as follows: Given a dataset about cats' features (ie whisker length, fur color, etc), how can we use a decision tree to predict the gender of a cat?
+
+I used <a href="https://github.com/alexeygrigorev/mlbookcamp-code/tree/master/course-zoomcamp">DataTalksClub</a> as my main resource, and I highly recommend their channel.
+
+
 
 
 <h1>What does a decision tree look like? How do each of the parts of a decision tree correspond to a dataset?</h1>
@@ -18,7 +22,7 @@ Decision trees are a popular machine learning algorithm used for classification 
   
 
   
-<img src="https://user-images.githubusercontent.com/125330688/235809811-e27f37c8-f391-4840-95d2-53e971937b64.png" alt="legit_tree" width="400">
+<img src="https://user-images.githubusercontent.com/125330688/235809811-e27f37c8-f391-4840-95d2-53e971937b64.png" alt="legit_tree" width="600">
 
 
 <div class="container">
