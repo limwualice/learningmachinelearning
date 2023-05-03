@@ -11,16 +11,16 @@ p {
 }
 
 .container {
-  background-color: #D6EAF8;
-  border-radius: 5px;
-  padding: 20px;
+  background-color: #D6EAF8 !important;
+  border-radius: 5px !important;
+  padding: 20px !important;
 }
 
 .container p {
-  background-color: #FFF;
-  border-radius: 5px;
-  margin: 0;
-  padding: 10px;
+  background-color: #FFF !important;
+  border-radius: 5px !important;
+  margin: 0 !important;
+  padding: 10px !important;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -29,9 +29,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 img {
-  max-width: 100%;
-  display: block;
-  margin: auto;
+  max-width: 100% !important;
+  display: block !important;
+  margin: auto !important;
 }
 
 blockquote {
