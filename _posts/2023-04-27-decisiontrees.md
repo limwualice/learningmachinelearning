@@ -1,8 +1,11 @@
 ---
 title: "Introduction to Decision Trees"
+layout: default
 
 ---
-
+<head>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
 
 Decision trees are a popular machine learning algorithm used for classification and regression. In this post, I give an introduction to decision trees. I used <a href="https://www.youtube.com/@DataTalksClub">DataTalksClub</a> as my main resource, and I highly recommend their channel.
 
@@ -19,7 +22,7 @@ Decision trees are a popular machine learning algorithm used for classification 
 
 
 <div class="container">
-  <p>Similarly, a decision tree consists of branches, a root node, internal nodes, and leaves. Consider the following table regarding cats. This dataset consists of four cats, each with four features. We don't have a target in the dataset, but let's say we want to predict whether a cat is "default" or "okay". </p>
+  <p>Similarly, a decision tree consists of branches, a root node, internal nodes, and leaves. Consider the following table regarding cats. This dataset consists of four cats, each with four features. We don't have a target in the dataset, but let's say we want to predict whether a cat is "male" or "female". Please note that this is an imaginary dataset and it doesn't necessarily make sense to predict whether a cat is male or female based on these features. </p>
 </div>
 
 
@@ -53,10 +56,11 @@ Decision trees are a popular machine learning algorithm used for classification 
 <img src="https://user-images.githubusercontent.com/125330688/235817485-b160f385-2e37-4db3-8153-6afd966953a6.png" alt="decision4" width="400">
 
 <div class="container">
-  <p>Our decision tree ends with the leaf nodes, which are denoted as "default" or "ok". In our specific case, we have four cats that will be classified into one of the five leaf nodes. These leaf nodes represent the final output of our decision tree and serve as our target variable. For instance, if our task is to predict if a cat will be "adopted" or "not adopted", we would label the leaf nodes accordingly.</p>
+  <p>Our decision tree ends with the leaf nodes, which are denoted as "male" or "female". In our specific case, we have four cats that will be classified into one of the five leaf nodes. These leaf nodes represent the final output of our decision tree and serve as our target variable. For instance, if our task is to predict if a cat will be "adopted" or "not adopted", we would label the leaf nodes accordingly.</p>
 </div>
 
-<img src="https://user-images.githubusercontent.com/125330688/235817487-da809eff-b3d6-44dd-97e5-95cdbf28450d.png" alt="decision5" width="400">
+<img src="[https://user-images.githubusercontent.com/125330688/235817487-da809eff-b3d6-44dd-97e5-95cdbf28450d.png](https://user-images.githubusercontent.com/125330688/236013187-1caba483-b516-4476-a4b4-23f00ed51502.png)" alt="decision5" width="400">
+
 
 
 Now that we've seen our first decision tree, in the next post, we'll see how each of our nodes is chosen. For example, why do we choose "fur color = orange " as our condition instead of "fur color = white"? 
