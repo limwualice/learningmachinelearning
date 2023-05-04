@@ -70,5 +70,5 @@ I used <a href="https://github.com/alexeygrigorev/mlbookcamp-code/tree/master/co
 
 
 
-Now that we've seen our first decision tree, in the next post, we'll see how each of our nodes is chosen. For example, why do we choose "fur color = orange " as our condition instead of "fur color = white"? 
+Now that we've seen our first decision tree, in the next post, we'll see how the size of the decision tree affects the predictions.
 
