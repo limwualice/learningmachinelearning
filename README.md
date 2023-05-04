@@ -1,14 +1,14 @@
 # Decision Trees Blog
 
-Welcome to my GitHub Pages site where I'll be blogging about decision trees! This site is a place for me to share my knowledge about decision trees and related topics.
+Welcome to my GitHub Pages site where I'll be blogging about various machine learning topics! This site is a place for me to share intuitive explanations of machine learning.
 
 ## Installation
 
-No installation is required to use this site. Simply navigate to [https://your-github-username.github.io/decision-trees-blog/](https://limwualice.github.io/decisiontrees/) to access the blog.
+No installation is required to use this site. Simply navigate to [https://limwualice.io/learningmachinelearning-blog/](https://limwualice.github.io/learningmachinelearning/) to access the blog.
 
 ## Usage
 
-The blog contains a series of posts about decision trees and their applications. Each post contains an explanation of a particular concept or technique, along with examples and code snippets.
+The blog contains a series of posts about machine learning. Each post contains an explanation of a particular concept or technique, along with examples and code snippets.
 
 
 ## License
