@@ -4,6 +4,13 @@ layout: default
 
 ---
 
+<head>
+  <link rel="stylesheet" type="text/css" href="learningmachinelearning/style.css">
+  <!-- Include Font Awesome CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  
+</head>
+
 
 In the last blog post, we saw the basic layout of a decision tree and how each of the components of a decision tree relate to a dataset. 
 In this post, we'll look at two different ways decision trees can be chosen, and how they affect predictions.
@@ -30,5 +37,3 @@ I used the DataTalksClub YouTube series on decision trees as my main source for 
 <h2>Decision tree 2</h2>
 <p>Instead, let's choose one node, "Age less than or equal to 30". We see that this gives much better results in terms of generalizing to a test set. This is because we chose one node that fits a pattern, rather than many nodes that fits the training set exactly, but doesn't generalize well.</p>
 <img src="https://user-images.githubusercontent.com/125330688/236112686-80d22ffa-37f7-43be-8c05-e3f903baeacd.png" alt="nodes3" width="600">
-
-

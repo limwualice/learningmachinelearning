@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="favicon.ico">
+  <!-- Include Font Awesome CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <title>Learning Machine Learning</title>
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <div class="header-content">
+        <div class="blog-about">
+          <h1><a href="index.html">Home</a></h1>
+          <img src="City.png" alt="City"  width="100px">
+        </div>
+        <div class="blog-about">
+          <h1><a href="about.html">About</a></h1>
+          <img src="Aliens.png" alt="Aliens"  width="100px">
+        </div>
+        <div class="blog-about">
+          <h1><a href="blog.html">Blog</a></h1>
+          <img src="Books.png" alt="Books"  width="100px">
+        </div>
+      </div>
+    </div>
+  </header>
+  <div class="blog">
+
+    <h1>Introduction to Decision Trees</h1>
+    <h2>What does a decision tree look like?<br> How do each of the parts of a decision tree correspond to a dataset?</h2>
+
+   
+
+    <img src="blog_posts/blog1/legit_tree.png" alt="legit_tree" width="600">
+    <div class="container">
+      <p>A real-life tree consists of branches, roots, and leaves.</p>
+    </div>
+
+    <div class="container">
+      <p>Similarly, a decision tree consists of branches, a root node, internal nodes, and leaves. Consider the following table regarding cats. This dataset consists of four cats, each with four features. We don't have a target in the dataset, but let's say we want to predict whether a cat is "male" or "female". Please note that this is an imaginary dataset and it doesn't necessarily make sense to predict whether a cat is male or female based on these features.</p>
+    </div>
+
+    <img src="blog_posts/blog1/cats.png" alt="cats" width="600">
+
+    <div class="container">
+      <p>We will start with a condition which asks whether or not the cat is neutered. This is called the "root node". There is only one root node.</p>
+    </div>
+
+    <img src="blog_posts/blog1/decisiontree1.png" alt="decision1" width="600">
+
+    <div class="container">
+      <p>From our chart, three cats are neutered and one is not neutered. The three neutered cats will go down the "True branch" and the one non-neutered cat will go down the "False branch".</p>
+    </div>
+
+    <img src="blog_posts/blog1/decisiontree2.png" alt="decision2" width="600">
+
+    <div class="container">
+      <p>Next, we have two "internal nodes". On the left branch, we have our one non-neutered cat, and we will check whether the cat satisfies the condition "Whiskers > 2 inches". On the right branch, we have our three neutered cats. For each of these cats, we will check whether the cat satisfies the condition "fur length = long". The internal node is similar to the root node in that we are checking a condition.</p>
+    </div>
+
+    <img src="blog_posts/blog1/decisiontree3.png" alt="decision3" width="600">
+
+    <div class="container">
+        <p>Next, we fill in the rest of the internal nodes and branches. We have one more internal node, "fur color = orange". In this case, if the cat is orange, then that cat will go down the true branch. All other colored cats will go down the false branch.</p>
+      </div>
+  
+      <img src="blog_posts/blog1/decisiontree4.png" alt="decision4" width="600">
+  
+      <div class="container">
+        <p>Our decision tree ends with the leaf nodes, which are denoted as "male" or "female". In our specific case, we have four cats that will be classified into one of the five leaf nodes. These leaf nodes represent the final output of our decision tree and serve as our target variable. For instance, if our task is to predict if a cat will be "adopted" or "not adopted", we would label the leaf nodes accordingly.</p>
+      </div>
+  
+      <img src="blog_posts/blog1/decisiontree6.png" alt="decision6" width="600">
+  
+      <p>Now that we've seen our first decision tree, in the next post, we'll see how the size of the decision tree affects the predictions.<br><br></p>
+    </div>
+      <!-- Footer -->
+      <section class="footer">
+        <h4>CONTACT ME</h4>
+        <p>Send me an email at: <br>limwualice at gmail dot com</p>
+        <div class="icons">
+          <a href="https://www.linkedin.com/in/alicewulim/" target="_blank"><i class="fa-brands fa-linkedin fa-lg"></i></a>
+        </div>
+        <p>Made using HTML and CSS <i class="fa-solid fa-heart"></i> Alice Wu Lim</p>
+      </section>
+    
+  </body>
+  </html>
+  
